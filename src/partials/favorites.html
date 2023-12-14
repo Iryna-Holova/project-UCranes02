@@ -1,10 +1,73 @@
 <section>
   <div class="container">
-    <h2>Favorites</h2>
-    <load ="partials/aside.html" />
+    <h2 class = "favorites-title">Favorites</h2>
+    <!-- <load ="partials/aside.html" /> -->
     <div>
-      <ul class="js-gallery"></ul>
-      <ul class="js-pagination"></ul>
-    </div>
+      <ul class="aside-list">
+        <li class="aside-list-item item-flex aside-item-quote">
+          <div class="aside-icon">
+            <svg class="icon-running-stick" height="20" width="20">
+              <use href="/src/img/icons.svg#icon-running-stick-figure"></use>
+            </svg>
+          </div>
+          <div class="">
+            <h3 class="title-quote list-item-title">
+              Quote of the day
+              <svg class="" height="20" width="20">
+                <use href="#"></use>
+              </svg>
+            </h3>
+            <p class=" text-quote list-item-text">
+              A lot of times I find that people who are blessed with the most
+              talent don't ever develop that attitude, and the ones who aren't
+              blessed in that way are the most competitive and have the biggest
+              heart.
+            </p>
+            <p class="autor-quote list-item-text">Tom Brady</p>
+          </div>
+        </li>
+      </ul>
+<div class="daily-norm-img">
+      <div class="daily-norm">
+        <svg class="daily-norm-icon" height="20" width="20">
+          <use href="/src/img/icons.svg#"></use>
+        </svg>
+        <h3 class="list-item-title">110 min</h3>
+        <p class="list-item-subtitle list-item-text">Daily norm of sports</p>
+      </div>
+
+      <!-- <li class="aside-list-item aside-list-img"></li>
+    <li class="aside-list-item item-flex list-item-hto"> -->
+
+      <picture class="img-cont">
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            /img/favorites/favorites-desktop@2x.jpg 2x,
+            /img/favorites/favorites-desktop.jpg
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            /img/favorites/favorites-tablet@2x.jpg 2x,
+            /img/favorites/favorites-tablet.jpg
+          "
+        />
+
+        <img
+          class="img-hero"
+          srcset="
+            ../img/favorites/favorites-desktop@2x.jpg 2x,
+            /img/favorites/favorites-desktop.jpg
+          "
+          alt="two woman do exercises"
+          width="335"
+          height="460"
+        />
+      </picture>
+      </div>
+      <ul class="card-style js-gallery"></ul>
+    <ul class="js-pagination"></ul>
   </div>
 </section>
