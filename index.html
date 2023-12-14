@@ -7,8 +7,8 @@
     <title>YourEnergy - Get Body in shape, Stay healthy</title>
     
     <script type="module" crossorigin src="/project-UCranes02/assets/vendor-2f7d7b6c.js"></script>
-    <script type="module" crossorigin src="/project-UCranes02/assets/main-4cc162ed.js"></script>
-    <link rel="stylesheet" href="/project-UCranes02/assets/main-cea8b790.css">
+    <script type="module" crossorigin src="/project-UCranes02/assets/main-dd815e72.js"></script>
+    <link rel="stylesheet" href="/project-UCranes02/assets/main-a7c22a0a.css">
     <link rel="stylesheet" href="/project-UCranes02/assets/vendor-08d4f560.css">
   </head>
   <body>
@@ -196,7 +196,7 @@
       <div class="social-wrap">
         <a href="./index.html" class="footer-logo" aria-label="your energy">
           <svg class="footer-icon" aria-label="Burger mobile menu btn">
-            <use href="../img/icons.svg#icon-logo"></use>
+            <use href="/project-UCranes02/assets/icons-0dcdbd7b.svg#icon-logo"></use>
           </svg>
         </a>
         <ul class="socials-list">
@@ -233,11 +233,12 @@
       name="subscribe"
       type="email"
       placeholder="Email"
-      pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+      pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+      title="Email format - example@example.com"
       required
     />
   </label>
-  <button class="form-btn">Send</button>
+  <button class="form-btn" type="submit">Send</button>
 </form>
 
       </div>
@@ -245,14 +246,185 @@
     <div class="footer-bottom">
       <div class="terms-wrapper">
         <p>Your Energy. All rights reserved.</p>
-        <p class="terms">
-          <span>Privacy Policy</span><span>Terms of Service</span>
-        </p>
+        <div class="terms">
+          <span class="js-policy-modal-open">Privacy Policy</span>
+          /
+          <span class="js-terms-modal-open">Terms of Service</span>
+        </div>
       </div>
       <p>&copy; 2023</p>
     </div>
   </div>
 </footer>
+<div class="backdrop is-hidden js-policy-modal">
+  <div class="policy-modal">
+    <h2 class="policy-title">Privacy Policy</h2>
+    <div class="scroll-container">
+      <button class="policy-modal-close-btn js-policy-modal-close" type="button">
+        <svg class="close-mobile-menu-icon" aria-label="policy modal close icon">
+          <use href="/project-UCranes02/assets/icons-0dcdbd7b.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="policy-text-wrap">
+        <p class="policy-text">
+          Your privacy is important to us. This section outlines how we collect
+          use, process, and protect your personal data. This Privacy Policy
+          applies to the use of our website, applications, and services, so
+          please take a moment to read it.
+        </p>
+        <p class="policy-text">
+          What personal data do we collect: We may collect various types of
+          personal data that you voluntarily provide when interacting with our
+          website, registering an account, placing an order, or filling out
+          forms. This may include your name, email address, phone number,
+          address, order information, and more.
+        </p>
+        <p class="policy-text">
+          How we use your personal data: We use the collected personal data to
+          provide services, manage your account, process orders, provide you
+          with information about our products and services, and to communicate
+          with you regarding inquiries and updates.
+        </p>
+        <p class="policy-text">
+          Protection of personal data: We take every effort to protect your
+          information and use modern technologies to prevent unauthorized
+          access, loss, or disclosure of your personal information.
+        </p>
+        <p class="policy-text">
+          Disclosure to third parties: We do not disclose your personal data to
+          third parties without your consent, except when required by law or to
+          provide the services you requested.
+        </p>
+        <p class="policy-text">
+          Changes to the Privacy Policy: We may periodically update this Privacy
+          Policy. Please refer to this page to stay informed about any changes.
+        </p>
+        <p class="policy-text">
+          Contact us: If you have any questions or concerns regarding this
+          Privacy Policy or your information, please contact us using the
+          contact details provided on our website.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="backdrop is-hidden js-terms-modal">
+  <div class="policy-modal">
+    <h2 class="policy-title">Terms of Service</h2>
+    <div class="scroll-container">
+      <button class="policy-modal-close-btn js-terms-modal-close" type="button">
+        <svg class="close-mobile-menu-icon" aria-label="terms modal close icon">
+          <use href="/project-UCranes02/assets/icons-0dcdbd7b.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="policy-text-wrap">
+        <ol class="policy-terms-list">
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">Acceptance of Terms</p>
+            <p class="policy-terms-list-text">
+              Welcome to EnglishExcellence! These Terms of Service
+              (&#34;Terms&#34;) outline the terms and conditions for using our
+              English language courses and services (collectively referred to as
+              the &#34;Services&#34;). By accessing or using our Services, you
+              agree to comply with and be bound by these Terms. If you do not
+              agree with these Terms, please do not use our Services.
+            </p>
+          </li>
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">Services Overview</p>
+            <p class="policy-terms-list-text">
+              EnglishExcellence is dedicated to providing engaging and effective
+              English language courses in a supportive and stimulating learning
+              environment. Our aim is to help learners enhance their English
+              language skills through our courses.
+            </p>
+          </li>
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">
+              Content and Intellectual Property
+            </p>
+            <p class="policy-terms-list-text">
+              3.1. Course Materials: All course materials, including text,
+              videos, graphics, and other content, are the intellectual property
+              of EnglishExcellence or its licensors. You are granted a limited,
+              non-exclusive, non-transferable license to access and use these
+              materials for educational purposes only.
+            </p>
+            <p>
+              3.2. Prohibited Use: You may not reproduce, distribute, modify,
+              create derivative works of, publicly display, or perform any of
+              our course materials without prior written consent from
+              EnglishExcellence.
+            </p>
+          </li>
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">User Conduct</p>
+            <p class="policy-terms-list-text">
+              4.1. Respectful Behavior: EnglishExcellence maintains a respectful
+              and inclusive learning environment. You agree not to engage in any
+              behavior that is harmful, discriminatory, harassing, or disruptive
+              to other learners or instructors.
+            </p>
+            <p>
+              4.2. Compliance with Laws: You agree to comply with all applicable
+              laws and regulations while using our Services.
+            </p>
+          </li>
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">Privacy</p>
+            <p class="policy-terms-list-text">
+              Your privacy is important to us. Our Privacy Policy explains how
+              we collect, use, and protect your personal information. By using
+              our Services, you consent to the collection and use of your
+              information as described in our Privacy Policy.
+            </p>
+          </li>
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">Termination</p>
+            <p class="policy-terms-list-text">
+              EnglishExcellence reserves the right to suspend or terminate your
+              access to our Services at its discretion, with or without cause.
+            </p>
+          </li>
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">Disclaimer of Warranties</p>
+            <p class="policy-terms-list-text">
+              Our Services are provided &#34;as is&#34; and &#34;as
+              available.&#34; EnglishExcellence does not make any warranties,
+              whether expressed or implied, regarding the accuracy, reliability,
+              or availability of the Services.
+            </p>
+          </li>
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">Limitation of Liability</p>
+            <p class="policy-terms-list-text">
+              EnglishExcellence shall not be liable for any indirect,
+              incidental, special, consequential, or punitive damages arising
+              out of or in connection with the use of our Services.
+            </p>
+          </li>
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">Modifications to Terms</p>
+            <p class="policy-terms-list-text">
+              EnglishExcellence reserves the right to modify or update these
+              Terms at any time. We will provide notice of such changes, and
+              your continued use of our Services after the changes are posted
+              will signify your acceptance of the modified Terms.
+            </p>
+          </li>
+          <li class="policy-terms-list-item">
+            <p class="policy-terms-list-subtitle">Contact Us</p>
+            <p class="policy-terms-list-text">
+              If you have any questions or concerns about these Terms or our
+              Services please contact us at englishexcellence@gmail.com. These
+              Terms of Service were last updated on August 31st 2023.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
 
     
     <div class="mobile-menu-backdrop visually-hidden" >
