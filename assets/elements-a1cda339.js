@@ -10,7 +10,7 @@
             ${s==="favorites"?`
                 <button class="btn-delete-card" type="button">
                 <svg class="icon-delete-favorite" width="16" height="16">
-                  <use href="/img/icons.svg#icon-remove"></use>
+                  <use href="./img/icons.svg#icon-remove"></use>
                 </svg>
                 </button>
                 
@@ -18,21 +18,21 @@
                 <div class="cont-card-rating">
                   <p class="card-rating-exer">${r}</p>
                   <svg class="icon-card-exer" width="18" height="18">
-                    <use href="img/icons.svg#icon-star"></use>
+                    <use href="./img/icons.svg#icon-star"></use>
                   </svg>
                 </div>
               `}
             <div class="block-btn-icon-exer">
               <button class="btn-card-exer">Start</button>
               <svg class="icon-card-btn" width="16" height="16">
-                <use href="img/icons.svg#icon-arrow"></use>
+                <use href="./img/icons.svg#icon-arrow"></use>
               </svg>
             </div>
           </div>
           <!-- Middle place card -->
           <div class="cont-icon-name-text">
             <svg class="icon-people-card" width="24" height="24">
-              <use href="img/icons.svg#icon-run-man"></use>
+              <use href="./img/icons.svg#icon-run-man"></use>
             </svg>
             <p class="text-name-exercises-card">${e}</p>
           </div>
@@ -54,4 +54,4 @@
         </div>
       </a>
     </li>`).join("")}const d={burger:document.querySelector(".js-burger"),filter:document.querySelector(".js-filter"),gallery:document.querySelector(".js-gallery"),pagination:document.querySelector(".js-pagination"),searchForm:document.querySelector(".js-search-form"),subscribe_form:document.querySelector(".js-subscribe-form"),quote:document.querySelector(".js-quote")};export{a,d as e};
-//# sourceMappingURL=elements-329e0964.js.map
+//# sourceMappingURL=elements-a1cda339.js.map
