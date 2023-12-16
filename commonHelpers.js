@@ -1,2 +1,2 @@
-import{e as a,a as r}from"./assets/elements-9a858705.js";const e=JSON.parse(localStorage.getItem("favorites"));console.log(e);a.gallery.insertAdjacentHTML("beforeend",r(e,"favorites"));
+import{c as e,e as a,a as r}from"./assets/common-e8545fae.js";import"./assets/vendor-80510813.js";const s=JSON.parse(localStorage.getItem(e.LS_KEY_FAVORITES))??[];a.gallery.innerHTML=r(s,"favorites");
 //# sourceMappingURL=commonHelpers.js.map
