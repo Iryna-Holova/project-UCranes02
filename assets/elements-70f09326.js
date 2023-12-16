@@ -1,4 +1,4 @@
-(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))c(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const r of t.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&c(r)}).observe(document,{childList:!0,subtree:!0});function o(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function c(e){if(e.ep)return;e.ep=!0;const t=o(e);fetch(e.href,t)}})();const l="/project-UCranes02/assets/icons-8e3f0925.svg#icon-remove",d="/project-UCranes02/assets/icons-8e3f0925.svg#icon-star",u="/project-UCranes02/assets/icons-8e3f0925.svg#icon-arrow",p="/project-UCranes02/assets/icons-8e3f0925.svg#icon-run-man";function m(i,s){return i.map(({_id:o,bodyPart:c,name:e,target:t,rating:r,burnedCalories:n,time:a})=>`
+(function(){const s=document.createElement("link").relList;if(s&&s.supports&&s.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))c(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const r of t.addedNodes)r.tagName==="LINK"&&r.rel==="modulepreload"&&c(r)}).observe(document,{childList:!0,subtree:!0});function o(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerpolicy&&(t.referrerPolicy=e.referrerpolicy),e.crossorigin==="use-credentials"?t.credentials="include":e.crossorigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function c(e){if(e.ep)return;e.ep=!0;const t=o(e);fetch(e.href,t)}})();const l="/project-UCranes02/assets/icons-0389f68f.svg#icon-remove",u="/project-UCranes02/assets/icons-0389f68f.svg#icon-star",d="/project-UCranes02/assets/icons-0389f68f.svg#icon-arrow",p="/project-UCranes02/assets/icons-0389f68f.svg#icon-run-man";function m(i,s){return i.map(({_id:o,bodyPart:c,name:e,target:t,rating:r,burnedCalories:n,time:a})=>`
          <li class="main-item_card-exercises">
       <a class="link-exercise-card" href="" data-id="${o}">
         <!-- Top place card -->
@@ -18,14 +18,14 @@
                 <div class="cont-card-rating">
                   <p class="card-rating-exer">${r}</p>
                   <svg class="icon-card-exer" width="18" height="18">
-                    <use href="${d}"></use>
+                    <use href="${u}"></use>
                   </svg>
                 </div>
               `}
             <div class="block-btn-icon-exer">
               <button class="btn-card-exer">Start</button>
               <svg class="icon-card-btn" width="16" height="16">
-                <use href="${u}"></use>
+                <use href="${d}"></use>
               </svg>
             </div>
           </div>
@@ -53,5 +53,5 @@
           </ul>
         </div>
       </a>
-    </li>`).join("")}const f={burger:document.querySelector(".js-burger"),filter:document.querySelector(".js-filter"),gallery:document.querySelector(".js-gallery"),gallerySubtitle:document.querySelector(".js-subtitle"),pagination:document.querySelector(".js-pagination"),searchForm:document.querySelector(".js-search-form"),backBtn:document.querySelector(".js-back-button"),subscribeForm:document.querySelector(".js-subscribe-form"),quote:document.querySelector(".js-quote"),policyBtn:document.querySelector(".js-policy-modal-open"),termsBtn:document.querySelector(".js-terms-modal-open")};export{m as a,f as e,l as r};
-//# sourceMappingURL=elements-b7a7bf32.js.map
+    </li>`).join("")}const f={burger:document.querySelector(".js-burger"),filter:document.querySelector(".js-filter"),gallery:document.querySelector(".js-gallery"),gallerySubtitle:document.querySelector(".js-subtitle"),pagination:document.querySelector(".js-pagination"),searchForm:document.querySelector(".js-search-form"),backBtn:document.querySelector(".js-back-button"),subscribeForm:document.querySelector(".js-subscribe-form"),quote:document.querySelector(".js-quote"),policyBtn:document.querySelector(".js-policy-modal-open"),termsBtn:document.querySelector(".js-terms-modal-open"),scrollTopBtn:document.querySelector(".js-scroll-top-button")};export{m as a,f as e,l as r};
+//# sourceMappingURL=elements-70f09326.js.map
