@@ -15,5 +15,5 @@ export {
   handleFavorites,
   handleSubscribe,
   handlePolicyModal,
-  handleSearch
+  handleSearch,
 };

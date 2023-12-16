@@ -8,6 +8,9 @@ const elements = {
   quote: document.querySelector('.js-quote'),
   policyBtn: document.querySelector('.js-policy-modal-open'),
   termsBtn: document.querySelector('.js-terms-modal-open'),
+  btnBurger: document.querySelector('.mobile-menu-open-btn'),
+  burgerMenu: document.querySelector('.mobile-menu-backdrop'),
+  btnCloseBurger: document.querySelector('.mobile-menu-close-btn'),
 };
 
 export { elements };
