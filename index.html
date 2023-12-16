@@ -7,9 +7,9 @@
     <title>YourEnergy - Get Body in shape, Stay healthy</title>
     
     <script type="module" crossorigin src="/project-UCranes02/commonHelpers2.js"></script>
-    <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/elements-5f1f1464.js">
+    <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/elements-b7a7bf32.js">
     <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/vendor-80510813.js">
-    <link rel="stylesheet" href="/project-UCranes02/assets/elements-85d5b49b.css">
+    <link rel="stylesheet" href="/project-UCranes02/assets/elements-2ed9d4c7.css">
     <link rel="stylesheet" href="/project-UCranes02/assets/vendor-08d4f560.css">
   </head>
   <body class="home-page">
@@ -539,28 +539,34 @@
           <input type="radio" id="star1" name="rate" value="1" />
           <label for="star1"></label>
         </fieldset>
+        <p class="error"></p>
       </div>
 
-      <input
-        class="email_field"
-        type="email"
-        name="email"
-        class="email__input"
-        id="user_email_up"
-        required=""
-        placeholder="Email"
-      />
-
-      <input
-        class="comment_field"
-        type="text"
-        name="review"
-        class="comment__input"
-        id="user_comment"
-        required=""
-        placeholder="Your comment"
-        autocomplete="off"
-      />
+      <lable>
+        <input
+          class="email_field"
+          type="email"
+          name="email"
+          class="email__input"
+          id="user_email_up"
+          required=""
+          placeholder="Email"
+        />
+        <p class="error"></p>
+      </lable>
+      <label>
+        <textarea
+          class="comment_field"
+          type="text"
+          name="review"
+          class="comment__input"
+          id="user_comment"
+          required=""
+          placeholder="Your comment"
+          autocomplete="off"
+        ></textarea>
+        <p class="error"></p>
+      </label>
       <button class="btn_submit" type="submit">Send</button>
 
       <div class="rating_send_btn"></div>

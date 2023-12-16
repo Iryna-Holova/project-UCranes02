@@ -54,4 +54,4 @@
         </div>
       </a>
     </li>`).join("")}const f={burger:document.querySelector(".js-burger"),filter:document.querySelector(".js-filter"),gallery:document.querySelector(".js-gallery"),gallerySubtitle:document.querySelector(".js-subtitle"),pagination:document.querySelector(".js-pagination"),searchForm:document.querySelector(".js-search-form"),backBtn:document.querySelector(".js-back-button"),subscribeForm:document.querySelector(".js-subscribe-form"),quote:document.querySelector(".js-quote"),policyBtn:document.querySelector(".js-policy-modal-open"),termsBtn:document.querySelector(".js-terms-modal-open")};export{m as a,f as e,l as r};
-//# sourceMappingURL=elements-5f1f1464.js.map
+//# sourceMappingURL=elements-b7a7bf32.js.map
