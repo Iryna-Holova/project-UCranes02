@@ -1,2 +1,2 @@
-import{a as l,e,b as n,h as r,g as t,r as o}from"./assets/favorites-page-f305bc3d.js";import"./assets/vendor-80510813.js";window.addEventListener("scroll",l);e.scrollTopBtn.addEventListener("click",n);e.btnOpenBurger.addEventListener("click",r);e.btnCloseBurger.addEventListener("click",r);t.load();o.observe(document.querySelector("html"));
+import{a as l,e,b as n,h as r,g as t,r as o}from"./assets/favorites-page-ec0c9ed5.js";import"./assets/vendor-80510813.js";window.addEventListener("scroll",l);e.scrollTopBtn.addEventListener("click",n);e.btnOpenBurger.addEventListener("click",r);e.btnCloseBurger.addEventListener("click",r);t.load();o.observe(document.querySelector("html"));
 //# sourceMappingURL=commonHelpers2.js.map
