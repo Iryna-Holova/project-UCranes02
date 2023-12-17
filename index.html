@@ -8,8 +8,8 @@
     
     <script type="module" crossorigin src="/project-UCranes02/commonHelpers2.js"></script>
     <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/vendor-80510813.js">
-    <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/common-c8f75772.js">
-    <link rel="stylesheet" href="/project-UCranes02/assets/common-f4e32382.css">
+    <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/burget-menu-handler-205b86d2.js">
+    <link rel="stylesheet" href="/project-UCranes02/assets/burget-menu-handler-87e6121b.css">
     <link rel="stylesheet" href="/project-UCranes02/assets/vendor-08d4f560.css">
   </head>
   <body class="home-page" data-page="home">
@@ -75,8 +75,10 @@
             <use href="/project-UCranes02/assets/icons-0389f68f.svg#icon-sun"></use>
           </svg>
           <h1 class="hero-main-title">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get
-            <span class="text-hero-italic">Body</span> in shape, Stay healthy
+            <span class="item-hero-title"
+              >Get <span class="text-hero-italic">Body</span> in</span
+            >
+            shape, Stay healthy
           </h1>
           <p class="hero-text">
             Transform your physique and embrace a healthier lifestyle with our
@@ -477,23 +479,31 @@
     </div>
   </div>
 </div>
-    
-    <div class="mobile-menu-backdrop visually-hidden" >
-        <div class="mobile-menu" id="mobile-menu">
-            <button class="mobile-menu-close-btn" type="button">
-                <svg class="close-mobile-burger-menu-icon" aria-label="Modal window close icon">
-                    <use href="/project-UCranes02/assets/icons-0389f68f.svg#icon-close"></use>
-                </svg>
-            </button>
-            <div class="mobile-menu-nav-wrap">
-                <nav class="mobile-menu-nav">
-                    <ul class="mobile-menu-nav-list">
-                        <li class="mobile-menu-nav-item"><a href="./index.html" class="mobile-menu-nav-link">Home</a></li>
-                        <li class="mobile-menu-nav-item"><a href="./favorites.html" class="mobile-menu-nav-link">Favorites</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <ul class="socials-list">
+    <div class="mobile-menu-backdrop is-hidden">
+  <div class="mobile-menu" id="mobile-menu">
+    <button class="mobile-menu-close-btn" type="button">
+      <svg
+        class="close-mobile-burger-menu-icon"
+        aria-label="Modal window close icon"
+      >
+        <use href="/project-UCranes02/assets/icons-0389f68f.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="mobile-menu-nav-wrap">
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-nav-list">
+          <li class="mobile-menu-nav-item">
+            <a href="./index.html" class="mobile-menu-nav-link">Home</a>
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a href="./favorites.html" class="mobile-menu-nav-link"
+              >Favorites</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <ul class="socials-list">
     <li class="socials-item">
         <a class="socials-link" href="https://www.facebook.com/goITclub/" target="_blank">
             <svg class="socials-icon" width=28 height=28 aria-label="Facebook icon">
@@ -516,8 +526,9 @@
         </a>
     </li>
 </ul>
-        </div>
-    </div>
+  </div>
+</div>
+
     <template id="modal-template">
   <div class="modal" data-modal>
     <button type="button" class="modal__close-btn" data-modal-close>
