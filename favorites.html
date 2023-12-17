@@ -8,9 +8,9 @@
     
     <script type="module" crossorigin src="/project-UCranes02/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/vendor-80510813.js">
-    <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/common-1137091a.js">
+    <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/common-c8f75772.js">
     <link rel="stylesheet" href="/project-UCranes02/assets/vendor-08d4f560.css">
-    <link rel="stylesheet" href="/project-UCranes02/assets/common-796c1d48.css">
+    <link rel="stylesheet" href="/project-UCranes02/assets/common-f4e32382.css">
   </head>
   <body class="favorites-page" data-page="favorites">
     <header class="header container">
@@ -66,10 +66,11 @@
 </header>
 
     <main>
-      <section>
+      <section class="section-favorites">
   <div class="container">
-    <h2>Favorites</h2>
-    <div class="favorite-aside">
+    <h2 class="favorites-title">Favorites</h2>
+    <div class="favorites-body">
+      <div class="favorite-aside">
   <ul class="favorite-aside-list">
     <li class="favorite-list-item item-flex aside-item-quote">
       <div class="aside-icon-container quote-container-color">
@@ -109,9 +110,10 @@
   </ul>
 </div>
 
-    <div>
-      <ul class="js-gallery"></ul>
-      <ul class="js-pagination"></ul>
+      <div class="gallery-box">
+        <ul class="js-gallery  gallery-list" data-cards="favorites"></ul>
+        <ul class="js-pagination"></ul>
+      </div>
     </div>
   </div>
 </section>
