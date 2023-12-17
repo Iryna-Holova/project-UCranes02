@@ -8,8 +8,8 @@
     
     <script type="module" crossorigin src="/project-UCranes02/commonHelpers2.js"></script>
     <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/vendor-80510813.js">
-    <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/burget-menu-handler-205b86d2.js">
-    <link rel="stylesheet" href="/project-UCranes02/assets/burget-menu-handler-87e6121b.css">
+    <link rel="modulepreload" crossorigin href="/project-UCranes02/assets/burget-menu-handler-173c7a39.js">
+    <link rel="stylesheet" href="/project-UCranes02/assets/burget-menu-handler-3b0d99cf.css">
     <link rel="stylesheet" href="/project-UCranes02/assets/vendor-08d4f560.css">
   </head>
   <body class="home-page" data-page="home">
@@ -148,11 +148,20 @@
   <div class="container">
     <div class="exercises-header">
       <div class="exercises-titles">
-        <button class="js-back-button back-button back-button-hidden" type='button'>Go back</button>
+        <button
+          class="js-back-button back-button back-button-hidden"
+          type="button"
+        >
+          Go back
+        </button>
         <h2 class="exercises-title">Exercises</h2>
-        <div class="js-subtitle subtitle-block">
-        </div>
-        <button class="js-back-button back-button back-button-hidden" type='button'>Go back</button>
+        <div class="js-subtitle subtitle-block"></div>
+        <button
+          class="js-back-button back-button back-button-hidden"
+          type="button"
+        >
+          Go back
+        </button>
       </div>
       <div class="exercises-filters">
         <form class="js-search-form search-form search-form-hidden">
@@ -166,11 +175,7 @@
 
         <ul class="js-filter filter-buttons">
           <li>
-            <button
-              class="filter-button"
-              type="button"
-              data-filter="muscles"
-            >
+            <button class="filter-button" type="button" data-filter="muscles">
               Muscles
             </button>
           </li>
@@ -190,7 +195,9 @@
     <div class="exercises-body">
       <div class="gallery-box">
         <ul data-cards="subfilters" class="js-gallery gallery-list"></ul>
-        <ul class="js-pagination"></ul>
+        <div class="pagination-container">
+          <ul class="js-pagination"></ul>
+        </div>
       </div>
       <div class="aside">
   <ul class="aside-list">
