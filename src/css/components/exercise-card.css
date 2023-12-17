@@ -13,7 +13,7 @@
 .icon-card-exer {
   stroke: var(--yellow);
   fill: var(--yellow);
-} 
+}
 .btn-delete-card {
   width: 32px;
   height: 32px;
@@ -121,6 +121,7 @@
 .list-info-exer {
   display: flex;
   align-items: center;
+  overflow: hidden;
   justify-content: space-between;
   max-width: 303px;
 }
@@ -196,10 +197,10 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  [data-cards="exercises"] .main-item_card-exercises {
+  [data-cards='exercises'] .main-item_card-exercises {
     width: 442px;
   }
-  [data-cards="favorites"] .main-item_card-exercises {
+  [data-cards='favorites'] .main-item_card-exercises {
     width: 405px;
   }
   .text-name-exercises-card {

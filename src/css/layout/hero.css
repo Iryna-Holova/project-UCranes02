@@ -44,6 +44,8 @@
   display: flex;
   justify-content: space-between;
   max-width: 335px;
+  row-gap: 8px;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
 }
@@ -146,6 +148,7 @@
     height: 100px;
     display: block;
     border-radius: 20px;
+    right: inherit;
   }
   .cont-text-small-img {
     display: flex;
@@ -155,6 +158,11 @@
   .block-small-img-teg {
     display: flex;
     flex-direction: column;
+    align-items: end;
     gap: 32px;
+  }
+  .box-hero-desk {
+    display: inline-block;
+    width: 168px;
   }
 }
