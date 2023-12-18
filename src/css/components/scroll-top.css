@@ -49,3 +49,7 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+.no-scroll .js-scroll-top-button {
+  visibility: hidden;
+}
