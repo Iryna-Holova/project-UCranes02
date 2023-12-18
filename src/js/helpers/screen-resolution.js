@@ -1,3 +1,5 @@
+import { elements } from '../elements';
+import { favorites } from '../services/favorites-page';
 import { gallery } from '../services/gallery';
 
 const cardsQuantity = {
@@ -9,12 +11,19 @@ const cardsQuantity = {
 let initialDevice = convertSizeToType(window.screen.width);
 
 const resizeObserver = new ResizeObserver(entry => {
+  const containers = {
+    'home': gallery,
+    'favorites': favorites,
+  };
+
   let currentDevice = convertSizeToType(
     entry[0].devicePixelContentBoxSize[0].inlineSize
   );
+
   if (initialDevice !== currentDevice) {
-    initialDevice = currentDevice;    
-    gallery.refreshLimits(cardsQuantity[currentDevice]);    
+    initialDevice = currentDevice;
+    const pageType = elements.body.dataset.page;    
+    containers[pageType].refreshLimits(cardsQuantity[currentDevice]);    
   }
 });
 
