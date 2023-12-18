@@ -22,7 +22,6 @@
   fill: var(--yellow);
 } 
 .btn-delete-card {
-  position: absolute;
   width: 32px;
   height: 32px;
   display: flex;
@@ -31,7 +30,6 @@
   background-color: transparent;
 }
 .btn-add-card {
-  position: absolute;
   width: 32px;
   height: 32px;
   padding: 0;
@@ -40,6 +38,10 @@
   justify-content: center;
   align-items: center;
   background-color: transparent;
+}
+.btn-delete-card.is-hidden,
+.btn-add-card.is-hidden {
+  display: none;
 }
 .btn-delete-card:hover .icon-delete-favorite,
 .btn-add-card:hover .icon-add-favorite {
