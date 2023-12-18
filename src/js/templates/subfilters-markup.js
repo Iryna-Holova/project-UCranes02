@@ -9,7 +9,7 @@ function subfiltersMarkup(array) {
       <a data-subfilter="${name}" class="exercises-item-container" href="">
         <img class="exercises-item-image" src="${imgURL}" alt="${name}" />
         <div class="exercises-proprties-container">
-          <h4 class="exercises-item-name">${name}</h4>
+          <h3 class="exercises-item-name">${name}</h3>
           <p class="exercises-item-type">${filter}</p>
         </div>
       </a>

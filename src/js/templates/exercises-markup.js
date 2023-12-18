@@ -52,7 +52,7 @@ function exercisesMarkup(array, page) {
               `
             }
             <div class="block-btn-icon-exer">
-              <button class="btn-card-exer">Start</button>
+              <span class="btn-card-exer">Start</span>
               <svg class="icon-card-btn" width="16" height="16">
                 <use href="${iconArrowPath}"></use>
               </svg>
